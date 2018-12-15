@@ -1,6 +1,8 @@
-<%= simple_form_for @task, url:test_create_path do |f| %>
-  <%= f.input :memo %>
+<%= simple_form_for @task, url:test_update_path do |f| %>
+  <%= f.input :id, :as => :hidden %>
   <%= f.input :title %>
+  <%= f.input :memo %>
+  <%= f.select :data, Task::SELECT_DATA, {:selected => @task.data}, {:multiple => true} %>
   <%= f.button :submit %>
 <% end %>
 
