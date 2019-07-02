@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="postgres@localhost" uuid="9a0deff5-b24e-4fbe-ae47-a5e12a98a0cc">
+      <database-info product="PostgreSQL" version="11.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="11.1" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <introspection-schemas>*:*|@:@|aa:|lifelog_development:|lifelog_test:|rails_sandbox:|rails_sandbox_development:|rails_sandbox_test:|yoshimotokazuhiro:</introspection-schemas>
+    </data-source>
+  </component>
+</project>
